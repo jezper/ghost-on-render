@@ -1,8 +1,7 @@
-FROM ghost:5-alpine
+FROM ghost:6.0.0-alpine
 
 ENV NODE_ENV=production
 
-# Create content directory
 VOLUME /var/lib/ghost/content
 
 EXPOSE 2368
